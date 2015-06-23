@@ -1,0 +1,191 @@
+footer { padding: 0 0; }
+
+header {
+    padding: 80px 0 0 0;
+    height: 300px;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#pagetitle {
+    font-size: 100px;
+    font-style: italic;
+    text-shadow: 4px 1px 1px rgba(0,0,0, 0.5);
+}
+    #pagetitle span {
+        font-size: 140px;
+        font-variant: small-caps;
+        background-image: url(../img/ampulheta_faztd.png);
+        background-repeat: no-repeat;
+        background-position: 9px 62px;
+        text-shadow: none;
+    }
+
+.bg-teal { background-color: #1352a2; }
+.color-teal { color: #1352a2; }
+.border-teal { border-color: #1352a2; }
+
+.bg-sandybrown { background-color: #fcd162 }
+.color-sandybrown { color: #fcd162 }
+
+.bg-tomato { background-color: #f76762 }
+.color-tomato { color: #f76762 }
+
+.bg-darkslategray { background-color: #323231 }
+.color-darkslategray { color: #323231 }
+
+.bg-whitesmoke { background-color: #f0f1ee }
+.color-whitesmoke { color: #f0f1ee }
+
+.bg-limegreen { background-color: #46ba0d; }
+.color-limegreen { color: #46ba0d; }
+.border-limegreen { border-color: #46ba0d; }
+
+/*triplecontent*/
+#main {
+    padding: 40px 0;
+}
+    #main .row {
+    }
+    #main .dialogo .item {
+        line-height: 37px;
+    }
+
+/*triplecontent*/
+#triplecontent {
+    padding: 80px 0; 
+	font-size: 22px;
+}
+    #triplecontent .item {
+        height: 80px;
+    }
+@media (max-width: 992px) {
+    #triplecontent .item {
+        line-height: 70px;
+    }
+}
+
+/*start*/
+#start {
+    padding: 30px 0;
+    font-size: 26px;
+    line-height: 45px;
+}
+    #start .whatsapp {
+        color: #4dc247;
+        font-size: 62px;
+        font-weight: bold;
+    }
+
+    #start small {
+        font-style: italic;
+    }
+
+    
+/*valores*/
+#valores {
+    padding: 80px 0;
+}
+    #valores h2 {
+        padding-bottom: 40px;
+    }
+
+/*tempolivre*/
+#tempolivre {
+    padding: 80px 0 0 0;
+    height: 400px;
+    background-image: url(../img/runner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    #tempolivre .texto {
+        padding: 20px 30px;
+        border-radius: 6px;
+        font-size: 16px;
+        background: rgba(255,255,255, 0.7);
+    }
+
+/*contato*/
+#contato {
+    padding: 90px 0; 
+}
+    #contato .item {
+        margin: 30px 0;
+    }
+        #contato .item a:hover {
+            color: #f0f1ee;
+            text-decoration: none;
+        }
+
+/*exemples*/
+#exemples {
+    padding: 40px 0 60px 0; 
+}
+    #exemples .tela {
+        margin: 15px 0;
+        height: 450px;
+        position: relative;
+    }
+    
+        #exemples .tela span.link {
+            color: blue
+        }
+        #exemples .tela .head, #exemples .tela .foot {
+            height: 40px;
+            padding-top: 10px;
+            font-size: 16px;
+        }
+        #exemples .tela .body {
+            height: 368px;
+            margin: 1px 0px;
+        }
+
+            #exemples .tela .body p {
+                margin-top: 5px;
+                margin-bottom: 0;
+                padding: 3px 10px;
+                border-radius: 5px;
+                border-style: solid;
+                border-width: 1px;
+                font-size: 12px;
+                font-weight: bold;
+                color: #333;
+            }
+            #exemples .tela .body .customer {
+                margin-right: 5px;
+                margin-left: 40px;
+                float: right;
+            }
+            #exemples .tela .body .server {
+                margin-left: 5px;
+                margin-right: 40px;
+                float: left;
+            }
+
+/*exemples whatsapp*/
+#exemples .tela.whatsapp .head { background-color: #206F3A; color: #eee; }
+#exemples .tela.whatsapp .body { background-color: #efefdd; }
+#exemples .tela.whatsapp .foot { background-color: #eeeeee; color: #777; }
+#exemples .tela.whatsapp .body .customer { background-color: #96DD7E; border-color: #ccc }
+#exemples .tela.whatsapp .body .server { background-color: #eee; border-color: #ccc }
+
+/*exemples facebook*/
+#exemples .tela.facebook .head { background-color: #eee; color: #1465d7; }
+#exemples .tela.facebook .body { background-color: #eeeeee; }
+#exemples .tela.facebook .foot { background-color: #eeeeee; color: #1465d7; }
+#exemples .tela.facebook .body .customer { background-color: #1465d7; color: #eee; border-color: #1465d7  }
+#exemples .tela.facebook .body .server { background-color: #ccc; border-color: #ccc }
+
+/*faq*/
+#faq {
+    padding: 30px 0;
+}
+    #faq dt {
+        padding: 20px 0 0 0;
+    }
+    #faq dd {
+        padding: 0 0 20px  0;
+    }
